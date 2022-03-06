@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <form>
+          <div class="container">
+            <h1>Registro</h1>
+            <p>Por favor, preencha este formulário para criar uma conta.</p>
+            <hr>
+
+            <label for="text"><strong>Seu nome</strong></label>
+            <input type="text" placeholder="Digite seu Seu nome" name="name" id="name" required>
+
+            <label for="text"><strong>Sobrenome</strong></label>
+            <input type="text" placeholder="Digite seu Sobrenome" name="Sobrenome" id="Sobrenome" required>
+           
+            <label for="email"><strong>E-mail</strong></label>
+              <input type="email" placeholder="Digite seu e-mail" name="email" id="email"  required>
+             
+            <label for="psw"><strong>Senha</strong></label>
+            <input type="password" placeholder="Digite a senha" name="psw" id="psw" minlength="6" required>
+           <p class="caractere">(mínimo 6 caracteres)</p>
+
+
+            <label for="psw-repeat"><strong>Repita a senha</strong></label>
+            <input type="password" placeholder="Repita a senha" name="psw-repeat" id="psw-repeat" minlength="6" required>
+           
+            <p>Ao criar uma conta, você concorda com nossos <a>Termos e Privacidade</a> </p>
+
+            <hr>
+            
+            <button type="submit" class="registerbtn">Registre</button>
+           
+           
+          </div>
+         
+          <div class="container signin">
+            <p>Já tem uma conta?<a href="login.html"> Faça login</a>.</p>
+          </div>
+        </form>
+       </div>  
+
+       
+</body>
+</html>
