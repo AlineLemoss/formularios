@@ -1,3 +1,5 @@
+@charset "UFT-8";
+
 * {
     box-sizing: border-box;
     border-radius: 15px;
@@ -56,7 +58,7 @@ hr {
 
 input {
   outline-color: #48c6ef; 
-  color: #48c6ef;
+  
   
 }
 
